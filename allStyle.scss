@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@use "./variables" as *;
+
 * {
     padding: auto;
     margin: auto;
@@ -12,7 +11,7 @@ body {
     background: url('./images/bg.jpg');
     background-repeat: no-repeat;
     background-size: 1300px 600px;
-    background-color: #b2e7eb;
+    background-color: $body-bg;
 
     .navBar {
         display: flex;
@@ -23,63 +22,50 @@ body {
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
-        color: #8C9CB1;
+        color: $nav-bg;
         border-radius: 5px;
 
         .navBar__blog {
-            
             width: 152px;
             height: 106px;
-            //left: 50px;
             top: 40px;
             font-family: 'Playfair Display', serif;
             font-style: normal;
             font-weight: bold;
             font-size: 32px;
-            color: #170F49;
+            color: $nav-color;
         }
 
         .navBar__skills {
             text-decoration: none;
-           
-            
-            //left: 350px;
             top: 55px;
-            color: #170F49;
+            color: $nav-color;
             font-weight: bold;
         }
 
         .navBar__about {
             text-decoration: none;
-           
-            //left: 750px;
             top: 55px;
-            color: #170F49;
+            color: $nav-color;
             font-weight: bold;
         }
 
         .navBar__project {
             text-decoration: none;
-           
-            //left: 550px;
             top: 55px;
-            color: #170F49;
+            color: $nav-color;
             font-weight: bold;
         }
 
         .navBar__getintouch {
             text-decoration: none;
-        
-            //left: 950px;
             top: 55px;
             font-weight: bold;
             line-height: 19px;
             display: flex;
             align-items: center;
             text-align: center;
-            /* Deep Navy */
-            color: #272643;
-            /* Inside auto layout */
+            color: $cap-color;
             flex: none;
             order: 0;
             flex-grow: 0;
@@ -94,7 +80,7 @@ body {
         padding: 10px;
         font-weight: bold;
         font-size: 50px;
-        color: #272643;
+        color: $cap-color;
     }
 
     .project {
@@ -103,7 +89,7 @@ body {
         top: 800px;
         font-weight: bold;
         font-size: 40px;
-        color: #272643;
+        color: $cap-color;
         margin-left: 50px;
 
         .pro__container {
@@ -127,7 +113,7 @@ body {
         top: 550px;
         font-weight: bold;
         font-size: 40px;
-        color: #272643;
+        color: $cap-color;
         margin-left: 50px;
 
         .flex-container {
@@ -165,21 +151,21 @@ body {
             width: 60px;
         }
     }
-    
-    .about{
+
+    .about {
         padding: 10px;
         position: relative;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         top: 350px;
         font-weight: bold;
         font-size: 40px;
         line-height: 79px;
         margin-left: 50px;
-        font-family: 'Russo One', sans-serif;
-        color: #170F49;
-       
+        font-family: $about-font;
+        color: $nav-color;
+
     }
-    .getintouch{
+
+    .getintouch {
         padding: 10px;
         position: relative;
         height: 300px;
@@ -187,8 +173,8 @@ body {
         font-weight: bold;
         font-size: 40px;
         line-height: 19px;
-        color: #272643;
-        margin-left: 50px;
+        color: $cap-color;
+
         .flex-container {
             margin-top: 30px;
             display: flex;
@@ -196,13 +182,12 @@ body {
             font-size: 30px;
             text-align: center;
         }
+
         .flex-item {
             height: 80px;
             width: 80px;
         }
-        
+
     }
 
 }
-
-
