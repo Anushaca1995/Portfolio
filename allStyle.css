@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Russo+One&display=swap");
 * {
   padding: auto;
   margin: auto;
@@ -8,14 +8,13 @@
 body {
   background: url("./images/bg.jpg");
   background-repeat: no-repeat;
-  background-size: 1300px 600px;
+  background-size: 2000px 600px;
   background-color: #b2e7eb;
 }
 body .navBar {
   display: flex;
   width: 100%;
   height: 125px;
-  left: 105px;
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
@@ -24,32 +23,33 @@ body .navBar {
   border-radius: 5px;
 }
 body .navBar .navBar__blog {
-  width: 152px;
-  height: 106px;
   top: 40px;
-  font-family: "Playfair Display", serif;
+  font-family: "Russo One", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  color: #170F49;
+  font-size: 42px;
+  color: #310c89;
 }
 body .navBar .navBar__skills {
   text-decoration: none;
   top: 55px;
-  color: #170F49;
+  color: #310c89;
   font-weight: bold;
+  font-size: 20px;
 }
 body .navBar .navBar__about {
   text-decoration: none;
   top: 55px;
-  color: #170F49;
+  color: #310c89;
   font-weight: bold;
+  font-size: 20px;
 }
 body .navBar .navBar__project {
   text-decoration: none;
   top: 55px;
-  color: #170F49;
+  color: #310c89;
   font-weight: bold;
+  font-size: 20px;
 }
 body .navBar .navBar__getintouch {
   text-decoration: none;
@@ -59,7 +59,8 @@ body .navBar .navBar__getintouch {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #272643;
+  color: #310c89;
+  font-size: 20px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -68,28 +69,28 @@ body .header {
   text-align: center;
   position: relative;
   top: 300px;
-  padding: 10px;
   font-weight: bold;
   font-size: 50px;
-  color: #272643;
+  color: #310c89;
 }
 body .project {
-  padding: 10px;
   position: relative;
   top: 800px;
   font-weight: bold;
   font-size: 40px;
   color: #272643;
-  margin-left: 50px;
+  margin-left: 10px;
+  text-align: center;
+  color: #310c89;
 }
 body .project .pro__container {
+  margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 body .project .pro__element {
   text-align: center;
-  padding: 20px 0;
   font-size: 30px;
 }
 body .skill {
@@ -99,7 +100,9 @@ body .skill {
   font-weight: bold;
   font-size: 40px;
   color: #272643;
-  margin-left: 50px;
+  margin-left: 5px;
+  text-align: center;
+  color: #310c89;
 }
 body .skill .flex-container {
   margin-top: 150px;
@@ -109,7 +112,6 @@ body .skill .flex-container {
   text-align: center;
 }
 body .skill .flex-item-css {
-  padding: 10px;
   height: 100px;
   width: 80px;
 }
@@ -135,9 +137,8 @@ body .about {
   position: relative;
   top: 350px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 79px;
-  margin-left: 50px;
   font-family: "Russo One", sans-serif;
   color: #170F49;
 }
