@@ -28,26 +28,26 @@ body .navBar .navBar__blog {
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
-  color: #310c89;
+  color: rgb(49, 12, 137);
 }
 body .navBar .navBar__skills {
   text-decoration: none;
   top: 55px;
-  color: #310c89;
+  color: rgb(49, 12, 137);
   font-weight: bold;
   font-size: 20px;
 }
 body .navBar .navBar__about {
   text-decoration: none;
   top: 55px;
-  color: #310c89;
+  color: rgb(49, 12, 137);
   font-weight: bold;
   font-size: 20px;
 }
 body .navBar .navBar__project {
   text-decoration: none;
   top: 55px;
-  color: #310c89;
+  color: rgb(49, 12, 137);
   font-weight: bold;
   font-size: 20px;
 }
@@ -59,7 +59,7 @@ body .navBar .navBar__getintouch {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #310c89;
+  color: rgb(49, 12, 137);
   font-size: 20px;
   flex: none;
   order: 0;
@@ -71,7 +71,7 @@ body .header {
   top: 300px;
   font-weight: bold;
   font-size: 50px;
-  color: #310c89;
+  color: rgb(49, 12, 137);
 }
 body .project {
   position: relative;
@@ -81,7 +81,7 @@ body .project {
   color: #272643;
   margin-left: 10px;
   text-align: center;
-  color: #310c89;
+  color: rgb(49, 12, 137);
 }
 body .project .pro__container {
   margin-top: 50px;
@@ -93,6 +93,9 @@ body .project .pro__element {
   text-align: center;
   font-size: 30px;
 }
+body .project .pro1 {
+  height: 50px;
+}
 body .skill {
   padding: 10px;
   position: relative;
@@ -102,7 +105,7 @@ body .skill {
   color: #272643;
   margin-left: 5px;
   text-align: center;
-  color: #310c89;
+  color: rgb(49, 12, 137);
 }
 body .skill .flex-container {
   margin-top: 150px;
@@ -162,4 +165,4 @@ body .getintouch .flex-container {
 body .getintouch .flex-item {
   height: 80px;
   width: 80px;
-}
+}/*# sourceMappingURL=allStyle.css.map */

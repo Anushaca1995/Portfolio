@@ -3,13 +3,4 @@
     display: flex;
     flex-direction: column;
   }
-}
-@media only screen and (max-width: 420px) {
-  .navBar, .pro__container {
-    display: flex;
-    flex-direction: column;
-  }
-  .header{
-    font-size: 40px;
-  }
-}
+}/*# sourceMappingURL=mediaQuery.css.map */
