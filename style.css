@@ -92,7 +92,11 @@ body .project .pro__container {
 body .project .pro__element {
   text-align: center;
   font-size: 30px;
-  height: 7vh;
+  display: flex;
+  flex-direction: row;
+}
+body .project .pro1 {
+  height: 50px;
 }
 body .skill {
   padding: 10px;

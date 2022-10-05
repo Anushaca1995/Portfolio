@@ -100,16 +100,18 @@ body {
         }
 
         .pro__element {
+            padding: 10px;
             text-align: center;
-            font-size: 30px;
+            font-size: 25px;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
         }
-        .pro1{
-            height: 50px;
 
-        }
+        
 
     }
-
+      
     .skill {
         padding: 10px;
         position: relative;

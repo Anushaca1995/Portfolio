@@ -28,26 +28,26 @@ body .navBar .navBar__blog {
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
-  color: rgb(49, 12, 137);
+  color: #310c89;
 }
 body .navBar .navBar__skills {
   text-decoration: none;
   top: 55px;
-  color: rgb(49, 12, 137);
+  color: #310c89;
   font-weight: bold;
   font-size: 20px;
 }
 body .navBar .navBar__about {
   text-decoration: none;
   top: 55px;
-  color: rgb(49, 12, 137);
+  color: #310c89;
   font-weight: bold;
   font-size: 20px;
 }
 body .navBar .navBar__project {
   text-decoration: none;
   top: 55px;
-  color: rgb(49, 12, 137);
+  color: #310c89;
   font-weight: bold;
   font-size: 20px;
 }
@@ -59,7 +59,7 @@ body .navBar .navBar__getintouch {
   display: flex;
   align-items: center;
   text-align: center;
-  color: rgb(49, 12, 137);
+  color: #310c89;
   font-size: 20px;
   flex: none;
   order: 0;
@@ -71,7 +71,7 @@ body .header {
   top: 300px;
   font-weight: bold;
   font-size: 50px;
-  color: rgb(49, 12, 137);
+  color: #310c89;
 }
 body .project {
   position: relative;
@@ -81,7 +81,7 @@ body .project {
   color: #272643;
   margin-left: 10px;
   text-align: center;
-  color: rgb(49, 12, 137);
+  color: #310c89;
 }
 body .project .pro__container {
   margin-top: 50px;
@@ -90,11 +90,12 @@ body .project .pro__container {
   flex-wrap: wrap;
 }
 body .project .pro__element {
+  padding: 10px;
   text-align: center;
-  font-size: 30px;
-}
-body .project .pro1 {
-  height: 50px;
+  font-size: 25px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
 }
 body .skill {
   padding: 10px;
@@ -105,7 +106,7 @@ body .skill {
   color: #272643;
   margin-left: 5px;
   text-align: center;
-  color: rgb(49, 12, 137);
+  color: #310c89;
 }
 body .skill .flex-container {
   margin-top: 150px;
@@ -161,6 +162,11 @@ body .getintouch .flex-container {
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
+}
+body .getintouch .flex-item {
+  height: 80px;
+  width: 80px;
+}center;
 }
 body .getintouch .flex-item {
   height: 80px;
