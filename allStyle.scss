@@ -152,6 +152,7 @@ body{
     }
     .about {
         display: flex;
+        flex-direction: column;
         padding: 10px;
         position: relative;
         top: 1050px;
@@ -160,10 +161,13 @@ body{
         line-height: 79px;
         font-family: $about-font;
         color: $nav-color;
-        &__img{
-            width: 10px;
-            height:10px;
-        }
+        &__resume{
+            color: rgb(135, 95, 46);
+            transition: background-color 0.5s;
+        }  
+        a:hover {
+            color: rgb(217, 200, 103);
+          }
     }
     .getintouch {
         padding: 10px;

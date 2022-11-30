@@ -143,6 +143,7 @@ body .project .pro__container .container .pro-image {
 }
 body .about {
   display: flex;
+  flex-direction: column;
   padding: 10px;
   position: relative;
   top: 1050px;
@@ -152,9 +153,12 @@ body .about {
   font-family: "Russo One", sans-serif;
   color: #b7b4ce;
 }
-body .about__img {
-  width: 10px;
-  height: 10px;
+body .about__resume {
+  color: rgb(135, 95, 46);
+  transition: background-color 0.5s;
+}
+body .about a:hover {
+  color: rgb(217, 200, 103);
 }
 body .getintouch {
   padding: 10px;
