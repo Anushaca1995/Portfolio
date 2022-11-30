@@ -140,7 +140,7 @@ body{
             .pro-head{
                 font-size: 25px;
                 font-weight: bold;
-                color: brown;
+                color: rgb(117, 154, 185);
             }
             .pro-image{
                 width: 100px;
@@ -151,6 +151,7 @@ body{
 
     }
     .about {
+        display: flex;
         padding: 10px;
         position: relative;
         top: 1050px;
@@ -159,6 +160,10 @@ body{
         line-height: 79px;
         font-family: $about-font;
         color: $nav-color;
+        &__img{
+            width: 10px;
+            height:10px;
+        }
     }
     .getintouch {
         padding: 10px;

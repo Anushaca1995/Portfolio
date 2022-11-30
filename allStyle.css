@@ -9,7 +9,7 @@ body {
   background: url("./images/bg.jpg");
   background-repeat: no-repeat;
   background-size: 2000px 600px;
-  background-color: #b2e7eb;
+  background-color: #170F49;
 }
 body .navBar {
   display: flex;
@@ -26,14 +26,14 @@ body .navBar .navBar__blog {
   font-family: "Russo One", sans-serif;
   font-style: normal;
   font-size: 42px;
-  color: #310c89;
+  color: #e5e4e2;
   display: flex;
   align-items: center;
   text-align: center;
 }
 body .navBar .navBar__skills {
   text-decoration: none;
-  color: #310c89;
+  color: #e5e4e2;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ body .navBar .navBar__skills {
 }
 body .navBar .navBar__about {
   text-decoration: none;
-  color: #310c89;
+  color: #e5e4e2;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@ body .navBar .navBar__about {
 }
 body .navBar .navBar__project {
   text-decoration: none;
-  color: #310c89;
+  color: #e5e4e2;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -61,7 +61,7 @@ body .navBar .navBar__getintouch {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #310c89;
+  color: #e5e4e2;
   font-size: 20px;
 }
 body .header {
@@ -70,7 +70,7 @@ body .header {
   top: 250px;
   font-weight: bold;
   font-size: 50px;
-  color: #310c89;
+  color: #e5e4e2;
 }
 body .skill {
   padding: 10px;
@@ -81,7 +81,7 @@ body .skill {
   color: #272643;
   margin-left: 5px;
   text-align: center;
-  color: #310c89;
+  color: #e5e4e2;
 }
 body .skill .flex-container {
   margin-top: 150px;
@@ -120,7 +120,7 @@ body .project {
   color: #272643;
   margin-left: 10px;
   text-align: center;
-  color: #310c89;
+  color: #e5e4e2;
 }
 body .project .pro__container {
   display: flex;
@@ -135,13 +135,14 @@ body .project .pro__container .container {
 body .project .pro__container .container .pro-head {
   font-size: 25px;
   font-weight: bold;
-  color: brown;
+  color: rgb(117, 154, 185);
 }
 body .project .pro__container .container .pro-image {
   width: 100px;
   height: 150px;
 }
 body .about {
+  display: flex;
   padding: 10px;
   position: relative;
   top: 1050px;
@@ -149,7 +150,11 @@ body .about {
   font-size: 30px;
   line-height: 79px;
   font-family: "Russo One", sans-serif;
-  color: #170F49;
+  color: #b7b4ce;
+}
+body .about__img {
+  width: 10px;
+  height: 10px;
 }
 body .getintouch {
   padding: 10px;
@@ -171,4 +176,4 @@ body .getintouch .flex-container {
 body .getintouch .flex-item {
   height: 80px;
   width: 80px;
-}
+}/*# sourceMappingURL=allStyle.css.map */
